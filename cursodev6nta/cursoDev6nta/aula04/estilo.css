@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+div {
+	color: blue;
+	front-size:20px;
+	front-family: Helvetica;
+}
+
+p {
+	color: green;
+	front-size:40px;
+	front-family: Arial;
+}
+
+
+ #Conteudo{
+ 	color: pink;
+	front-size:10px;
+	front-family: sans-serif;
+}
+
+.artigoRodape{
+ 	color: pink;
+	front-size:14px;
+	front-family: Helvetica;
+	background-color: blue;
+}
+.artigoRodape span{
+	color: 
+	background-color; red;
+}
