@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+body{
+	font-family: arial;
+	background: #323434;
+	
+}
+h2{
+	border: dashed 1px;
+	padding: 10px;
+	background-color: black;
+	color:#FDC435;
+	font-size: 30px;
+}
+
+h4{
+	font-family: default;
+	color: white;
+}
+
+h3{
+	color:#FDC435;
+	font-size: 23px;
+}
+ol{
+	font-family: default;
+	border-style: solid;
+	border-width: medium;
+	border-color: #7EECEE;
+	background-color:#5ABEC1;
+	margin: 60px;
+	
+	
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+li{
+	color: white;
+}
+a{
+	color:#FDC435;
+}
+h5{ 
+	color: white;
+	font-size: 20px;
+	font-family: default;
+}
+span{
+	color: pink;
+}
