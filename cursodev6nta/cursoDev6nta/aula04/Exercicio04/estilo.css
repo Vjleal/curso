@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: #f1f1f1
+}
+h3{
+	color: red;
+}
+table{
+	font-size: 16pt;
+	font-family: Tahoma;
+}
+th{
+	color:blue;
+}
+#Nmedia{
+	font-weight: bold;
+}
+#media{
+	font-style: italic;
+}
