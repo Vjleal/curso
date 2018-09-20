@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Cadastro de Conta</title>
-</head>
-<body>
-
-<form action="">
-<fieldset>
-<legend>Abra uma Conta</legend>
-<p>Nome:</p>
-<input type="text" name="nome" placeholder="Nome" required>
-<p>Sobrenome:</p>
-<input type="text" name="sobrenome" placeholder="Sobrenome" required>
-<p>Login:</p>
-<input type="text" name="login" placeholder="Login" required>
-<p>Digite o Login novamente:</p>
-<input type="text" name="login" placeholder="Insira novamente o login" required> 
-<p>Senha:</p>
-<input type="password" name="senha" placeholder="Nova Senha"required>
-<br>
-<p>Anivers�rio</p>
-
-
-
-</body>
+    <head>
+        <title>Cadastre seu currículo</title>
+        <meta charset="UTF-8">
+       
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <h3>Formulário de Cadastro</h3>
+        <form action="cadastrar.jsp">
+            <fieldset class="fsDadosPessoais">
+                <legend class="fsDadosPessoais">Dados pessoais</legend>
+                Nome:<input type="text" name="nome"/> <br/>
+                E-mail:<input type="email" name="email"/> <br/>
+                Cidade:<input type="text" name="cidade"/> <br/>
+                Estado:
+                <select name="estado">
+                    <option value="">Escolha...</option>
+                    <option value="pa">Pará</option>
+                    <option value="ap">Amapá</option>
+                    <option value="am">Amazonas</option>
+                </select> <br/>
+            </fieldset>
+            <br/><br/>
+            <fieldset class="fsDadosProf">
+                <legend class="fsDadosProf">Dados profissionais</legend>
+                Cargo pretendido: <br/>
+                <input type="radio" name="cargo" value="sistemas"/>
+                Analista de Sistemas
+                <input type="radio" name="cargo" value="bd"/>
+                Analista de BD
+                <input type="radio" name="cargo" value="suporte"/>
+                Analista de Suporte
+                <br/><br/>
+                Tecnologias de interesse: <br/>
+                <input type="checkbox" name="i" value="java"/> Java
+                <input type="checkbox" name="i" value="htmlcss"/> HTML, CSS
+                <input type="checkbox" name="i" value="javas"/> Javascript
+                <input type="checkbox" name="i" value="sql"/> SQL
+                <br/><br/>
+                Mini currículo: <br/>
+                <textarea cols="60" rows="5"></textarea>
+            </fieldset>
+            <br/><br/>
+            <fieldset class="fsAcoes">
+                <legend class="fsAcoes">Ações</legend>
+                <input type="submit" value="Enviar" class="botaoEnviar" />
+                <input type="reset" value="Limpar"  class="botaoLimpar" />
+            </fieldset>
+        </form>
+    </body>
 </html>
