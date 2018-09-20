@@ -1,18 +1,18 @@
+p, input {
+	font-weight: bold;
+}
 
- 
-            p, input {
-                font-weight: bold;
-            }
-            input {
-            background-color: lightyellow;
-            }
-            .botao {
-                background-color: blue;
-                color: white;
-                min-width: 35px;
-                cursor: pointer;
-            }
-            #resultado {
-                color: red;
-            }
-     
+input {
+	background-color: lightyellow;
+}
+
+.botao {
+	background-color: blue;
+	color: white;
+	min-width: 35px;
+	cursor: pointer;
+}
+
+#resultado {
+	color: red;
+}
