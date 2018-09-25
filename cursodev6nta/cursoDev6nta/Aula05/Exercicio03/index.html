@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>calculando</title>
+</head>
+<script type="text/javascript" src="page.js"></script>
+<link href="estilo.css" rel="stylesheet">
+<body>
+	<table border>
+		<tr>
+			<th class="centra">Triângulo</th>
+			<th class="centra">Quadrado</th>
+			<th class="centra">Circulo</th>
+			<th class="centra">Trapézio</th>
+			<th class="centra">Retângulo</th>
+		</tr>
+		<tr>
+			<th><img alt="" src="img\imgTriangulo.jpg" width="250" height="250"></th>
+			<th><img alt="" src="img\imgQuadrado.png" width="250" height="250"></th>
+			<th><img alt="" src="img\imgCirculo.png" width="250" height="250"></th>
+ 			<th><img alt="" src="img\imgTrapezio.png" width="250" height="250"></th>
+ 			<th><img alt="" src="img\imgRetangulo.png" width="250" height="250"></th>
+ 		</tr>
+		<tr>
+			<td>
+			Base:
+			<input class="base" id="base" type="number"><br> 
+			Altura:
+			<input id="altura" type="number">
+			<p class="centra">
+			<input id="botao" type="Submit" value="Calc. área" onclick="calctria()"></p>
+			Área:
+			<input class="resultado" id="resTria" type="text" disabled="disabled">
+			</td>
+				
+			<td>
+			Lado:
+			<input id="Lado" type="number">
+			<p class="centra">
+			<input id="botao" type="Submit" value="Calc. área" onclick="calcQua()"></p>
+			Área:
+			<input class="resultado" id="resQuad" type="text" disabled="disabled">
+				</td>
+				
+				
+			<td>
+			Raio:<input id="raio" type="number">
+			<p class="centra">
+			<input id="botao" type="Submit" value="Calc. área" onclick="calcCirc()">
+			</p>
+			Área:
+			<input class="resultado" id="resCirc" type="text" disabled="disabled">
+				</td>
+			
+			
+			
+			
+			
+			<td>
+			Base Maior:<input id="baseMaior" type="number"><br>
+			
+			Base Menor:<input id="baseMenor" type="number"><br>
+			
+			Altura:<input  id="alturaTrap" type="number">
+			<p class="centra"><input id="botao" type="Submit"
+				value="Calc. área" onclick="calcTrapezio()"></p>
+			Área:<input class="resultado" id="resTrapezio" type="text" disabled="disabled">
+				</td>
+				
+				
+				<td>Base:
+					<input class="base" id="baseRet"type="number">
+					<br> 
+					Altura:
+					<input id="alturaRet" type="number">
+					<p class="centra">
+					<input id="botao" type="Submit" value="Calc. área" onclick="calcRet()"></p>
+					Área:
+					<input class="resultado" id="resRet" type="text" disabled="disabled">
+				</td>
+			
+		</tr>
+	</table>
+	
+</body>
+</html>
